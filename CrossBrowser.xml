@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test  name="ChromeBrowser">
+  <parameter name="BROWSER" value="chrome"></parameter>
+    <classes>
+      <class name="Grid_CrossBrowser.Test1Test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="FirefoxBrowser">
+    <parameter name="BROWSER" value="firefox"></parameter>
+   <classes>
+      <class name="Grid_CrossBrowser.Test1Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
